@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">aplicacionDeNotas</string>
+    <string name="bienvenido_inicio">Bienvenido</string>
 </resources>
