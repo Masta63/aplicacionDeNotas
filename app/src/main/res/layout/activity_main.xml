@@ -103,11 +103,39 @@
         android:layout_alignParentStart="true"
 
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="126dp"
+        android:layout_marginStart="80dp"
         android:layout_marginTop="98dp"
-        android:layout_marginEnd="127dp"
+        android:layout_marginEnd="80dp"
         android:backgroundTint="@color/purpura"
-        android:text="Ingresar" />
+        android:text="@string/ingresarbtn" />
 
+    <!-- layout_marginStart o end es del texto al borde de la caja-->
+<!--  android:textAlignment="center" alinea el texto directamente  -->
+
+    <TextView
+        android:id="@+id/olvidasteContra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_registro"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/olvidaste_tu_contrasenia"
+        android:textAlignment="center"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/button_registro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_inicio"
+        android:layout_alignStart="@+id/button_inicio"
+        android:layout_alignEnd="@+id/button_inicio"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:height="60dp"
+
+        android:text="@string/registrarse" />
 
 </RelativeLayout>

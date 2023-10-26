@@ -3,4 +3,7 @@
     <string name="bienvenido_inicio">Bienvenido </string>
     <string name="ingrese_su_email">Ingrese su Email !</string>
     <string name="Ingrese_su_contrasenia">Ingrese su Contraseña !</string>
+    <string name="olvidaste_tu_contrasenia">olvidaste tu contraseña?</string>
+    <string name="ingresarbtn">Ingresar</string>
+    <string name="registrarse">Registrarse</string>
 </resources>
